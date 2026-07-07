@@ -176,7 +176,7 @@ print('Number of odd numbers:', len(odd))
 squares = []
 for i in fahad_list:
     squares.append(i ** 2)
-print(squares)  
+print('Squares of numbers:=', squares)  
 
 #checking duplicate elements in list
 my_list1 = [1, 2, 3, 4, 5, 2, 3, 6, 7, 8, 9, 1]
@@ -184,31 +184,31 @@ duplicates = []
 for i in my_list1:
     if my_list1.count(i) > 1 and i not in duplicates:
         duplicates.append(i)
-print(duplicates)
+print('Duplicate elements:=', duplicates)
 
 #slicing question...........................
 
 #printing first three elements of list
 fahad_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 first_three = fahad_list[:3]
-print(first_three)
+print('first three elements:=', first_three)
 
 #using for loop to print first three elements of list
 fahad_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 first3 =[]
 for i in range(3):
     first3.append(fahad_list[i])
-print(first3)
+print('first three elements using loop :=', first3)
 
 #last three elements of list
 fahad_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 last_three = fahad_list[-3:]
-print(last_three)
+print('last three elements:=', last_three)
 
 #printing middle four elements of list
 fahad_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 middle_four = fahad_list[8:12]
-print(middle_four)
+print('middle four elements:= ',middle_four)
 
 #printing every numbr in the list with the gap of 2 
 
