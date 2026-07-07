@@ -213,4 +213,4 @@ print('middle four elements:= ',middle_four)
 #printing every numbr in the list with the gap of 2 
 
 fahad_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
-print(fahad_list[0:19:2])
+print('Every number with a gap of 2:=', fahad_list[0:19:2])
